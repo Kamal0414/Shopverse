@@ -22,8 +22,10 @@ const container = document.querySelector('.products-container');
 products.forEach(product => {
     container.innerHTML += `
     <div class="product-card">
+        <a href="product.html">
         <img src="${product.image}" alt="${product.name}" width="200"/>
-        <h3>${product.name}</h3>
+        </a>
+        <a href="product.html"><h3>${product.name}</h3></a>
         <p>${product.price}</p>
         <a href="cart.html">
             <button>Add to Cart</button>

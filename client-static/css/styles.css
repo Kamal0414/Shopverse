@@ -21,6 +21,10 @@ nav a {
     gap:1rem;
     padding: 1rem;
 }
+a{
+    text-decoration: none;
+    color: inherit;
+}
 
 /* -----------product page -----------------*/ 
 
