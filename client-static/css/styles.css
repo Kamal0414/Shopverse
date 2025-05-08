@@ -21,3 +21,43 @@ nav a {
     gap:1rem;
     padding: 1rem;
 }
+
+/* -----------product page -----------------*/ 
+
+.product-detail{
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+.product-detail img{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.product-detail .info{
+    max-width: 400px;
+}
+
+/*------------cart page --------------------*/
+
+.cart-items{
+    padding: 2rem;
+    display: flex;
+    flex-direction:column;
+    gap: 1rem;
+}
+
+.cart-item{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius:10px;
+}
+
+.cart-total{
+    padding: 2rem;
+    text-align: right;
+}
