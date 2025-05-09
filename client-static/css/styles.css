@@ -65,3 +65,29 @@ a{
     padding: 2rem;
     text-align: right;
 }
+
+/*-----------------LOGIN/SIGNUP-------------*/
+.form-container {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+}
+
+form input{
+    width: 90%;
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ddd;
+    border-radius: 5px ;
+}
+form button {
+    padding: 0.8rem 1.5rem;
+    background-color: #1e1e1e;
+    color: white;
+    border: none;
+    border-radius:5px;
+    cursor: pointer;
+}
