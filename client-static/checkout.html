@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>ShopVerse | Checkout</title>
+        <link rel="stylesheet" href="css/styles.css"/>
+    </head>
+    <body>
+        <header>
+            <h1>ShopVerse</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="cart.html">Cart</a>
+            </nav>
+        </header>
+        <main class="form-container">
+            <h2>Checkout</h2>
+            <form>
+                <h3>Shipping Details</h3>
+                <input type="text" placeholder="Full Name" required /><br/>
+                <input type="text" placeholder="Address" required/><br/>
+                <input type="text" placeholder="City" required/><br/>
+                <input type="text" placeholder="Postal Code" required/><br/>
+
+                <h3>Payment Method</h3>
+                <label><input type="radio" name="payment" required /> Credit Card</label><br />
+                <label><input type="radio" name="payment" /> UPI</label><br />
+                <label><input type="radio" name="payment" /> Cash on Delivery</label><br />
+
+                <h3>Total: ₹2999</h3>
+                <button type="submit">Place Order</button>
+            </form>
+        </main>
+        <footer>
+            <p>@copy; 2025 ShopVerse</p>
+        </footer>
+    </body>
+</html>

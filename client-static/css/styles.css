@@ -91,3 +91,15 @@ form button {
     border-radius:5px;
     cursor: pointer;
 }
+
+/*-------------------Checkout------------*/
+
+form h3 { 
+    text-align: left;
+    margin-top:1.5rem;
+}
+form label{
+    display: block;
+    text-align: left;
+    margin: 0.5rem 0;
+}
