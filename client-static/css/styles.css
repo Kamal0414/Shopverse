@@ -10,9 +10,13 @@ header, footer{
     text-align: center;
 }
 nav a {
-    margin: 0 10%;
+    padding: 0.5rem;
     color: white;
     text-decoration: none;
+}
+nav a.active{
+    font-weight: bold;
+    border-bottom:2px solid black
 }
 
 .products-container{
@@ -24,6 +28,13 @@ nav a {
 a{
     text-decoration: none;
     color: inherit;
+}
+button {
+    transition: background-color 0.3s ease-in;
+}
+button:hover{
+    background-color: #333;
+    transform: scale(1.05);
 }
 
 /* -----------product page -----------------*/ 
