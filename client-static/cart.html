@@ -12,27 +12,23 @@
             <nav>
                 <a href="index.html">Home</a>
                 <a href="checkout.html">checkout</a>
+                <a href="login.html">Login</a>
             </nav>
         </header>
-        <main>
+        <main class="form-container">
             <h2>Your Cart</h2>
-            <section class="cart-items">
-                <div class="cart-item">
-                  <img src="images/headphones.jpg" width="100" />
-                  <div>
-                    <h3>Wireless Headphones</h3>
-                    <p>Price: ₹2999</p>
-                    <p>Quantity: 1</p>
-                  </div>
-                </div>
-            </section>
-            <div class="cart-total">
-                <h3>Total : ₹2999</h3>
-                <a href="checkout.html"><button>Proceed to checkout</button></a>
-            </div>
+            <div id="cart-items"></div>
+            <h3 id="cart-total"></h3>
+            <a href="checkout.html"><button>Proceed to Checkout</button></a>
         </main>
         <footer>
             <p>&copy; 2025 ShopVerse</p>
         </footer>
+        <script src="js/cart.js"></script>
+        <script>
+            document.addEventListener("DOMContentLoaded",() => { 
+                renderCart();
+            });
+        </script>
     </body>
 </html>
